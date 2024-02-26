@@ -21,6 +21,11 @@
     <%= form.text_area :description %>
   </div>
 
+  <div class="py-2">
+    <%= form.label :image, style: "display: block" %>
+    <%= form.file_field :image %>
+  </div>
+
   <div>
     <%= form.submit %>
   </div>

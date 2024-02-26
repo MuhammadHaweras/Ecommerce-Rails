@@ -9,4 +9,9 @@
     <%= category.description %>
   </p>
 
+  <p>
+    <strong>Image:</strong>
+    <%= category.image.present? ? image_tag(category.image) : image_tag("https://via.placeholder.com/50") %>
+  </p>
+
 </div>
